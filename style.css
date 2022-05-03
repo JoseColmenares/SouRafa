@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 1em;
+    font-family: Helvetica, sans-serif;
+    background: rgb(215, 198, 216);
+    
+}
+
+/* Formataciones de la portada*/
+#portada {
+    background: rgb(231, 75, 218);
+    text-align: center;
+}
+
+#nombre, #area-links {
+    padding: 15px;
+}
+
+/*Formatación del menú*/
+a:link, a:visited {
+    color: rgba(22, 22, 90, 0.589);
+    text-decoration: none;
+    padding: 8px 12px;
+}
+
+a:hover, a:active {
+    color: white;
+}
+
+
+/*Formataciones generales*/
+h1 {
+    font-size: 2.5em;
+    color: rgba(22, 22, 90, 0.589);
+}
+h2 {
+    color: rgba(22, 22, 90, 0.589);
+}
+
+/*Formataciones del cuerpo*/
+
+#principal {
+    width: 920px;
+    margin: 0px auto;
+    padding: 50px;
+}
+
+#postagem, #lateral {
+    background: rgb(215, 198, 216);
+}
+#postagem {
+    width: 660px;
+    float: left;
+}
+
+#lateral {
+    width: 240px;
+    float: right;
+}
+
+#rodape {
+    background: rgb(231, 75, 218);
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
